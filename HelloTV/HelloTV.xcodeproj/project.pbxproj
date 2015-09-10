@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8467F4D1BA11A83007ABB51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8467F4C1BA11A83007ABB51 /* main.m */; };
+		B8467F501BA11A83007ABB51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8467F4F1BA11A83007ABB51 /* AppDelegate.m */; };
+		B8467F531BA11A83007ABB51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8467F521BA11A83007ABB51 /* ViewController.m */; };
+		B8467F561BA11A83007ABB51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8467F541BA11A83007ABB51 /* Main.storyboard */; };
+		B8467F581BA11A83007ABB51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8467F571BA11A83007ABB51 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8467F481BA11A83007ABB51 /* HelloTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8467F4C1BA11A83007ABB51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8467F4E1BA11A83007ABB51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8467F4F1BA11A83007ABB51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8467F511BA11A83007ABB51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8467F521BA11A83007ABB51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8467F551BA11A83007ABB51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8467F571BA11A83007ABB51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8467F591BA11A83007ABB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8467F451BA11A83007ABB51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8467F3F1BA11A83007ABB51 = {
+			isa = PBXGroup;
+			children = (
+				B8467F4A1BA11A83007ABB51 /* HelloTV */,
+				B8467F491BA11A83007ABB51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8467F491BA11A83007ABB51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8467F481BA11A83007ABB51 /* HelloTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8467F4A1BA11A83007ABB51 /* HelloTV */ = {
+			isa = PBXGroup;
+			children = (
+				B8467F4E1BA11A83007ABB51 /* AppDelegate.h */,
+				B8467F4F1BA11A83007ABB51 /* AppDelegate.m */,
+				B8467F511BA11A83007ABB51 /* ViewController.h */,
+				B8467F521BA11A83007ABB51 /* ViewController.m */,
+				B8467F541BA11A83007ABB51 /* Main.storyboard */,
+				B8467F571BA11A83007ABB51 /* Assets.xcassets */,
+				B8467F591BA11A83007ABB51 /* Info.plist */,
+				B8467F4B1BA11A83007ABB51 /* Supporting Files */,
+			);
+			path = HelloTV;
+			sourceTree = "<group>";
+		};
+		B8467F4B1BA11A83007ABB51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8467F4C1BA11A83007ABB51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8467F471BA11A83007ABB51 /* HelloTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8467F5C1BA11A83007ABB51 /* Build configuration list for PBXNativeTarget "HelloTV" */;
+			buildPhases = (
+				B8467F441BA11A83007ABB51 /* Sources */,
+				B8467F451BA11A83007ABB51 /* Frameworks */,
+				B8467F461BA11A83007ABB51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloTV;
+			productName = HelloTV;
+			productReference = B8467F481BA11A83007ABB51 /* HelloTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8467F401BA11A83007ABB51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Peng;
+				TargetAttributes = {
+					B8467F471BA11A83007ABB51 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5K8UAH3FUM;
+					};
+				};
+			};
+			buildConfigurationList = B8467F431BA11A83007ABB51 /* Build configuration list for PBXProject "HelloTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8467F3F1BA11A83007ABB51;
+			productRefGroup = B8467F491BA11A83007ABB51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8467F471BA11A83007ABB51 /* HelloTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8467F461BA11A83007ABB51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8467F581BA11A83007ABB51 /* Assets.xcassets in Resources */,
+				B8467F561BA11A83007ABB51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8467F441BA11A83007ABB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8467F531BA11A83007ABB51 /* ViewController.m in Sources */,
+				B8467F501BA11A83007ABB51 /* AppDelegate.m in Sources */,
+				B8467F4D1BA11A83007ABB51 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8467F541BA11A83007ABB51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8467F551BA11A83007ABB51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8467F5A1BA11A83007ABB51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		B8467F5B1BA11A83007ABB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8467F5D1BA11A83007ABB51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HelloTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.pragma.HelloTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8467F5E1BA11A83007ABB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HelloTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.pragma.HelloTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8467F431BA11A83007ABB51 /* Build configuration list for PBXProject "HelloTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8467F5A1BA11A83007ABB51 /* Debug */,
+				B8467F5B1BA11A83007ABB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8467F5C1BA11A83007ABB51 /* Build configuration list for PBXNativeTarget "HelloTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8467F5D1BA11A83007ABB51 /* Debug */,
+				B8467F5E1BA11A83007ABB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8467F401BA11A83007ABB51 /* Project object */;
+}
